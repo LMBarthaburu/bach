@@ -1,0 +1,32 @@
+.navbar, .navbar-brand, .navbar-nav a{
+  color: var(--verde-oscuro);
+  font-weight: bolder;
+}
+.navbar-brand:hover{
+  color: var(--verde-oscuro);
+}
+.navbar-nav a:hover{
+  opacity: 2;
+}
+.activeNav{
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  transition: 0.3s linear;
+  display: flex;
+  justify-content:stretch;
+  align-items: center;
+  background-color: var(--verde-fondo);
+  border-bottom: 4px solid var(--verde-oscuro);
+  z-index: 40;
+}
+.hidden{
+  height: auto;
+  width: 100%;
+  z-index: 40;
+  position: fixed;
+  top: -80px;
+  transition: 0.3s linear;
+  border-bottom: 1px solid var(--verde-oscuro);
+}

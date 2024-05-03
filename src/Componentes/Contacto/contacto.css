@@ -1,0 +1,118 @@
+#Contacto{
+  padding-top: 61px;
+}
+.contacto{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contacto-img{
+  width: 100%;
+  height: auto;
+  background-image: url('https://www.cenedi.com/assets/Jardineria-foto.jpg');
+  background-size: cover;
+}
+.contacto-titulo-cpntenedor{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 15px;
+}
+.contacto-titulo{
+  color: var(--verde-oscuro);
+  font-weight: bolder;
+  font-size: 42px;
+  width: fit-content;
+  background-color: white;
+  z-index: 10;
+  padding-right: 15px;
+}
+.contacto-clippath{
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  height: 5px;
+  background-color: var(--verde-oscuro);
+  z-index: 0;
+}
+.contacto-formulario{
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.contacto-input {
+  width: 100%;
+  display: block;
+  border: none;
+  margin: 3px 0;
+  padding-top: 20px;
+  border-bottom: solid 1px var(--verde-oscuro);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, var(--verde-oscuro) 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, var(--verde-oscuro) 4%);
+  background-position: -1000px 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.contacto-input:focus, .contacto-input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+
+.contacto-input::-webkit-input-placeholder{
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+
+.contacto-input:focus::-webkit-input-placeholder, .contacto-input:valid::-webkit-input-placeholder{
+ color: var(--verde-oscuro);
+ font-size: 11px;
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ visibility: visible !important;
+}
+.contacto-boton{
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: none;
+  -webkit-transition: all 0.1s ;
+  transition: all 0.1s ;
+  background-color: var(--verde-oscuro);
+  color: var(--text-ligth);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+
+  &:hover{
+    box-shadow: 0px 0px 5px 0px rgb(32, 102, 22)
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+@media (max-width:572px){
+  .contacto{
+    display: block;
+  }
+  .contacto-img{
+    display: none;
+  }
+  .contacto-titulo-cpntenedor{
+    margin-left: 0 ;
+  }
+  .contacto-formulario{
+    padding: 0 30px;
+  }
+}
