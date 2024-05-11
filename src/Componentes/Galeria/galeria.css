@@ -1,6 +1,3 @@
-#Galeria{
-  padding-top: 61px;
-}
 .galeria-titulo-cpntenedor{
   position: relative;
   display: flex;
@@ -19,22 +16,9 @@
 .galeria-clippath{
   position: absolute;
   bottom: 15px;
+  left: -15px;
   width: 100%;
   height: 5px;
   background-color: var(--verde-oscuro);
   z-index: 0;
-}
-.carousel{
-  margin: 25px 0;
-}
-.galeria-carousel-img{
-  width: 100%;
-  height: 80vh;
-}
-.carousel-caption{
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(229, 255, 224, 0.8);
-  color: var(--verde-oscuro);
 }

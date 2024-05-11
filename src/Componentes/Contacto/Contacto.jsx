@@ -9,7 +9,7 @@ function Contacto() {
 
   const handleSubmit=(e)=>{
     e.preventDefault()
-    emailjs.sendForm('service_sk7z85l','template_fnv45rm', formRef.current,'y7xW86yMJ4daVgaeO')
+    emailjs.sendForm('service_choa8fg','template_nmv14z1', formRef.current,'_ZhfpcBk3d4D5yUqS')
     setDone(true)
     const formulario =document.getElementById('formulario')
     formulario.reset()
@@ -31,7 +31,7 @@ function Contacto() {
               <textarea id="mensaje" cols="20" rows="5" required placeholder='Mensaje'className='contacto-input' name='message'></textarea>
               <div>
                 <button className='contacto-boton'>Enviar Mensaje</button>
-                {done && <p className='sent-msg'>Mensaje enviado con exito!!</p>}
+                {done && <p className='sent-msg'>Mensaje enviado con exito!</p>}
               </div>
             </form>
         </section>

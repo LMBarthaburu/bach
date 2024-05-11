@@ -101,6 +101,10 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+.sent-msg{
+  color: var(--verde-oscuro);
+  font-weight: bolder;
+}
 
 @media (max-width:572px){
   .contacto{

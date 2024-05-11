@@ -1,5 +1,5 @@
 #Planes{
-  padding-top: 61px;
+  padding: 61px 0;
 }
 .planes-titulo-cpntenedor{
   position: relative;
@@ -43,6 +43,7 @@
   .planes-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 15px 25px;
+    gap: 15px;
+    margin: 0 25px;
   }
 }
