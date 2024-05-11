@@ -5,7 +5,7 @@ import './wtsp.css'
 function Wtsp() {
   return (
     <div className='wtsp'>
-      <a href='https://api.whatsapp.com/send?phone=3814010691' target='_blanck'>
+      <a href='https://api.whatsapp.com/send?phone=+5493814448523' target='_blanck'>
         <PiWhatsappLogoDuotone/>
       </a>
     </div>
