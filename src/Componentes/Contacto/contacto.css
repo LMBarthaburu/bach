@@ -34,6 +34,7 @@
   height: 5px;
   background-color: var(--verde-oscuro);
   z-index: 0;
+  right: -15px;
 }
 .contacto-formulario{
   padding: 0 50px;
