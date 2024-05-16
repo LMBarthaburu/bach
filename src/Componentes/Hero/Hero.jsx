@@ -2,7 +2,7 @@ import React from 'react'
 import './hero.css'
 import 'animate.css';
 import Logo from '../../Recursos/Imagenes/LogoBach.png'
-import Video from '../../Recursos/Imagenes/CamPoder SRL _ Un sólido respaldo para tu campo - Google Chrome 2023-05-03 20-07-31.mp4'
+import Video from '../../Recursos/Imagenes/HeroVideo2.mp4'
 
 function Hero() {
   return (

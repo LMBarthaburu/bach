@@ -11,11 +11,11 @@ function Servicios() {
       </div>
       <div className='servicios-contenedor poda'>
         <div className='servicios-clippath'></div>
-        <h3 className='servicios-texto'>PODA</h3>
+        <h3 className='servicios-texto'>PODA<br />RECOLECCION</h3>
       </div>      
       <div className='servicios-contenedor paisajismo'>
         <div className='servicios-clippath'></div>
-        <h3 className='servicios-texto'>PAISAJISMO<br />RECOLECCION</h3>
+        <h3 className='servicios-texto'>PAISAJISMO</h3>
       </div>      
       <div className='servicios-contenedor fumigacion'>
         <div className='servicios-clippath'></div>

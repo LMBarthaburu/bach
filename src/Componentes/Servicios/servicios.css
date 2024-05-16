@@ -11,23 +11,20 @@
   align-items: center;
   position: relative;
   border-bottom: 5px solid var(--verde-oscuro);
+  background-size: cover;
 }
 .jardineria{
   background-image: url('../../Recursos//Imagenes/Jardinero-Foto-Pixabay-1\ 1.png');
-  background-size: cover;
 }
 .poda{
   background-image: url('../../Recursos//Imagenes/iStock-1131581722-scaled\ 1.png');
-    background-size: cover;
 }
 .paisajismo{
   background-image: url('../../Recursos//Imagenes/Jardiarte-curso-peon-jardineria\ 1.png');
-    background-size: cover;
 
 }
 .fumigacion{
   background-image: url('../../Recursos//Imagenes/fumigacion-denguejpg\ 1.png');
-    background-size: cover;
 }
 .servicios-clippath{
   position: absolute;
@@ -57,5 +54,8 @@
   .servicios-texto{
     font-size: 50px;
     line-height: 50px;
+  }
+  .servicios-contenedor{
+    background-size: fil;
   }
 }
