@@ -12,7 +12,7 @@ function Planes() {
     </div>
     <div className='planes-container my-3'>
       {
-        PlanesDb.map(item=><PlanesCard titulo={item.titulo} descripcion={item.descripcion} servicios={item.servicios}/>)
+        PlanesDb.map(item=><PlanesCard key={item.titulo} titulo={item.titulo} descripcion={item.descripcion} servicios={item.servicios}/>)
       }
       </div>
     </div>

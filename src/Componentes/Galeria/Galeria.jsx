@@ -8,7 +8,7 @@ function Galeria() {
         <h2 className='galeria-titulo'>Galería</h2>
         <div className='galeria-clippath'></div>
       </div>
-      <div class="elfsight-app-533d54d3-c040-4736-a836-378b58b35d2f" data-elfsight-app-lazy></div>
+      <div className="elfsight-app-533d54d3-c040-4736-a836-378b58b35d2f" data-elfsight-app-lazy></div>
     </div>
   )
 }

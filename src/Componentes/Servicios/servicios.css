@@ -14,17 +14,17 @@
   background-size: cover;
 }
 .jardineria{
-  background-image: url('../../Recursos//Imagenes/Jardinero-Foto-Pixabay-1\ 1.png');
+  background-image: url('https://app.pardux.com/render/img-jpeg/13/bos-taurus/Tom-Youngs-6138fef230e9a');
 }
 .poda{
-  background-image: url('../../Recursos//Imagenes/iStock-1131581722-scaled\ 1.png');
+  background-image: url('https://www.ajardina.es/wp-content/uploads/2024/02/Mantenimiento-de-la-poda-de-altura-consejos-esenciales-para-un-cuidado-eficiente.png');
 }
 .paisajismo{
-  background-image: url('../../Recursos//Imagenes/Jardiarte-curso-peon-jardineria\ 1.png');
+  background-image: url('https://planner5d.com/blog/content/images/2022/09/tania-melnyczuk-A1lfZgKxGF4-unsplash.jpg');
 
 }
 .fumigacion{
-  background-image: url('../../Recursos//Imagenes/fumigacion-denguejpg\ 1.png');
+  background-image: url('https://cdn.shopify.com/s/files/1/2110/9619/collections/Fumigadoras.jpg?v=1587324286');
 }
 .servicios-clippath{
   position: absolute;
@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--verde-oscuro);
+  background-color: var(--verde-fondo);
   opacity: 0.15;
 }
 .servicios-texto{
@@ -56,6 +56,6 @@
     line-height: 50px;
   }
   .servicios-contenedor{
-    background-size: fil;
+    background-size: cover;
   }
 }
