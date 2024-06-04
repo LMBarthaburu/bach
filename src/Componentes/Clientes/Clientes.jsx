@@ -21,7 +21,7 @@ function Clientes() {
         <h2 className='clientes-titulo'>Nuestros Clientes</h2>
         <div className='clientes-clippath'></div>
       </div>
-      <Marquee className='marquee'>
+      <Marquee className='marquee' speed={100} gradient={true} gradientWidth={80}>
         <img src={av1} alt="" className='marquee-img'/>
         <img src={jockey} alt="" className='marquee-img'/>
         <img src={av2} alt="" className='marquee-img'/>

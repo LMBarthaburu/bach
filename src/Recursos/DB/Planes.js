@@ -1,41 +1,28 @@
 export const PlanesDb =[
   {
-    titulo: 'MENSUAL',
+    titulo: 'PLAN MENSUAL BÁSICO',
     servicios:{
-      servicio1: '100 GB de almacenamiento',
-      servicio2: '100 GB de transferencia',
-      servicio3: '100 GB de transferencia',
-      servicio4: '100 GB de transferencia'
+      servicio1: '3 entradas para corte de Césped.',
+      servicio2: 'Perfilado de Tazas.',
     },
-    descripcion: 'Corte de cesped'
   },
   {
-    titulo: 'MENSUAL',
+    titulo: 'PLAN MENSUAL COMPLETO',
     servicios:{
-      servicio1: '100 GB de almacenamiento',
-      servicio2: '100 GB de transferencia',
-      servicio3: '100 GB de transferencia',
-      servicio4: '100 GB de transferencia'
+      servicio1: '3 entradas para corte de Césped.',
+      servicio2: 'Perfilado de Tazas.',
+      servicio3: 'Mantenimiento de canteros.',
+      servicio4: 'Corte de ligustros.'
     },
-    descripcion: 'Corte de cesped'
   },
   {
-    titulo: 'MENSUAL',
+    titulo: 'PLAN MENSUAL PERSONALIZADO',
     servicios:{
-      servicio1: '100 GB de almacenamiento',
-      servicio4: '100 GB de transferencia'
+      servicio1: 'Movimiento y nivelación de suelo.',
+      servicio2: 'Colocación de Césped.',
+      servicio3: 'Plantar y trasplantar plantas.',
+      servicio4: 'Mantenimientos de Lotes en Obras y vacíos.',
+      servicio5: 'Podas de ligustros, árboles y plantas.'
     },
-    descripcion: 'Corte de cesped'
-  },
-  {
-    titulo: 'MENSUAL',
-    servicios:{
-      servicio1: '100 GB de almacenamiento',
-      servicio2: '100 GB de transferencia',
-      servicio3: '100 GB de transferencia',
-      servicio4: '100 GB de transferencia',
-    },
-    descripcion: 'Corte de cesped'
-  },
-  
+  }, 
 ]

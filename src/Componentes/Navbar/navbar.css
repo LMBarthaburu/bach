@@ -1,6 +1,6 @@
 .navbar, .navbar-brand, .navbar-nav a{
   color: var(--verde-oscuro);
-  font-weight: bolder;
+  font-weight: bold;
 }
 .navbar-brand:hover{
   color: var(--verde-oscuro);
