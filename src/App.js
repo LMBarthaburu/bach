@@ -15,9 +15,9 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <Nosotros/>
-      <Servicios/>
       <Planes/>
+      <Servicios/>
+      <Nosotros/>
       <Galeria/>
       <Clientes/>
       <Contacto/>

@@ -19,7 +19,7 @@
 .clientes-clippath{
   position: absolute;
   bottom: 15px;
-  width: 100%;
+  width: 98%;
   height: 5px;
   background-color: var(--verde-oscuro);
   z-index: 0;

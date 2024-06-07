@@ -6,7 +6,7 @@ import PlanesCard from '../PlanesCars/PlanesCard'
 function Planes() {
   return (
     <div id='Planes' className='container'>
-      <div className='planes-titulo-cpntenedor container'>
+      <div className='planes-titulo-cpntenedor'>
         <h2 className='planes-titulo'>Planes</h2>
        <div className='planes-clippath'></div>
     </div>

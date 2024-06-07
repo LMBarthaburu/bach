@@ -56,16 +56,8 @@
     line-height: 50px;
   }
   .servicios-contenedor{
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .servicios-contenedor {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
   }
 }

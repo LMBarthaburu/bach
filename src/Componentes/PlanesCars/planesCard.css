@@ -18,6 +18,7 @@
 .planes-container:hover .card:hover {
   opacity: 1;
   transform: none;
+  transform: scale(1.05);
 }
 .card-title{
   font-weight: bolder;

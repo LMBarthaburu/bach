@@ -31,20 +31,20 @@ function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg activeNav ${show || 'hidden'}`}>
       <div className="container-fluid container">
-        <a className="navbar-brand" href="#Inicio">BACH</a>
+        <a className="navbar-brand" href="#Inicio"><b>BACH</b></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id='button'>
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#Nosotros" onClick={collapseNavbar}>Nosotros</a>
+              <a className="nav-link" href="#Planes" onClick={collapseNavbar}>Planes</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#Servicios" onClick={collapseNavbar}>Servicios</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Planes" onClick={collapseNavbar}>Planes</a>
+              <a className="nav-link" href="#Nosotros" onClick={collapseNavbar}>Nosotros</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#Galeria" onClick={collapseNavbar}>Galeria</a>
