@@ -5,7 +5,7 @@ function Servicios() {
   
   return (
     <div className='servicios' id='Servicios'>
-      {/* <div className='servicios-contenedor jardineria'>
+      <div className='servicios-contenedor jardineria'>
         <div className='servicios-clippath'></div>
         <h3 className='servicios-texto'>JARDINERIA<br />AREAS VERDES</h3>
       </div>
@@ -18,11 +18,6 @@ function Servicios() {
         <h3 className='servicios-texto'>PAISAJISMO</h3>
       </div>      
       <div className='servicios-contenedor fumigacion'>
-        <div className='servicios-clippath'></div>
-        <h3 className='servicios-texto'>FUMIGACION</h3>
-      </div> */}
-      <div className='servicios-contenedor'>
-        <div className='servicios-img'/>
         <div className='servicios-clippath'></div>
         <h3 className='servicios-texto'>FUMIGACION</h3>
       </div>
