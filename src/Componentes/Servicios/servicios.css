@@ -50,7 +50,6 @@
   background-attachment: fixed;
   background-position: center;
   border-bottom: 5px solid var(--verde-oscuro);
-  object-fit: cover;
 }
 @media (min-width: 573px) and (max-width: 1024px){
   .servicios-texto{
@@ -63,5 +62,8 @@
   .servicios-texto{
     font-size: 50px;
     line-height: 50px;
+  }
+  .servicios-img{
+    background-attachment: scroll;
   }
 }
