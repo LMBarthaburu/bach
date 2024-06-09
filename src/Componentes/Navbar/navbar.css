@@ -19,12 +19,12 @@
   align-items: center;
   background-color: white;
   border-bottom: 4px solid var(--verde-oscuro);
-  z-index: 40;
+  z-index: 150;
 }
 .hidden{
   height: auto;
   width: 100%;
-  z-index: 40;
+  z-index: 150;
   position: fixed;
   top: -80px;
   transition: 0.3s linear;

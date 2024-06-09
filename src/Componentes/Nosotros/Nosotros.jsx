@@ -12,7 +12,7 @@ function Nosotros() {
         <h3 className='nosotros-titulo nosotros-subtitulo'>Nuestra Misión</h3>
         <div className='nosotros-clippath'></div>
       </div>
-      <p className='container'>La misión de <b>BACH</b> es brindar un servicio eficiente, cubriendo todas las necesidades de Empresas, Countries, Barrios Privados, negocios y viviendas, poniendo a disposición un servicio integral de mantenimiento de espacios verdes durante todo el año con un equipo capacitado con herramientas y maquinarias de última tecnología.</p>
+      <p className='container'>La misión de <b>BACH</b> es brindar un servicio eficiente, cubriendo todas las necesidades de Empresas, Countries, Barrios Privados, negocios y viviendas, poniendo a disposición un servicio integral de mantenimiento de espacios verdes durante todo el año con un equipo altamente capacitado y con herramientas y maquinarias de última tecnología.</p>
     </div>
   )
 }

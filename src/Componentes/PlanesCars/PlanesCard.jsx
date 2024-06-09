@@ -1,5 +1,6 @@
 import React from 'react'
 import './planesCard.css'
+import BotonWtsp from '../BotonWtsp/BotonWtsp'
 
 function PlanesCard({titulo, servicios, descripcion}) {
 
@@ -11,17 +12,12 @@ function PlanesCard({titulo, servicios, descripcion}) {
           <h6 className="card-subtitle mb-2">Servicios Incluidos:</h6>
           {
             Object.values(servicios).map((servicio, index) => (
-              <li className='text-start' key={index}>{servicio}</li>
+              <li className='text-start fw-bold' key={index}>{servicio}</li>
             ))
           }
         </div>
-        {/* <h6 className="card-subtitle">{descripcion}</h6> */}
       </div>
-      <a href='https://api.whatsapp.com/send?phone=5493814448523' target='_blanck'>
-        <button className='card-button my-2'>
-          Pedi tu presupuesto!
-        </button>
-      </a>
+      <BotonWtsp titulo={titulo}/>
     </div>
   )
 }

@@ -75,9 +75,9 @@ function Footer() {
             <li><a href="https://www.instagram.com/bach.jardineria/" target='_blanck'><FaInstagram/></a></li>
           </ul>
           <ul className='links'>
-            <li><a href="#Nosotros">Nosotros</a></li>
-            <li><a href="#Servicios">Servicios</a></li>
             <li><a href="#Planes">Planes</a></li>
+            <li><a href="#Servicios">Servicios</a></li>
+            <li><a href="#Nosotros">Nosotros</a></li>
             <li><a href="#Galeria">Galeria</a></li>
             <li><a href="#Clientes">Clientes</a></li>
             <li><a href="#Contacto">Contacto</a></li>

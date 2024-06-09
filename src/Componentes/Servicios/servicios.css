@@ -4,16 +4,15 @@
 .servicios-contenedor{
   width: 100%;
   height: 100vh;
-  background-position: center;
-  background-attachment: fixed;
+  /* background-position: center;
+  background-attachment: fixed; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  border-bottom: 5px solid var(--verde-oscuro);
-  background-size: cover;
+  /* background-size: cover; */
 }
-.jardineria{
+/* .jardineria{
   background-image: url('https://app.pardux.com/render/img-jpeg/13/bos-taurus/Tom-Youngs-6138fef230e9a');
 }
 .poda{
@@ -25,7 +24,7 @@
 }
 .fumigacion{
   background-image: url('https://cdn.shopify.com/s/files/1/2110/9619/collections/Fumigadoras.jpg?v=1587324286');
-}
+} */
 .servicios-clippath{
   position: absolute;
   top: 0;
@@ -43,6 +42,18 @@
   line-height: 130px;
   position: relative;
 }
+.servicios-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://planner5d.com/blog/content/images/2022/09/tania-melnyczuk-A1lfZgKxGF4-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border-bottom: 5px solid var(--verde-oscuro);
+}
 @media (min-width: 573px) and (max-width: 1024px){
   .servicios-texto{
     font-size: 100px;
@@ -55,9 +66,10 @@
     font-size: 50px;
     line-height: 50px;
   }
-  .servicios-contenedor{
+  /* .servicios-contenedor{
     width: 100vw;
     height: 100vh;
     background-size: cover;
-  }
+    background-attachment: scroll;
+  } */
 }
