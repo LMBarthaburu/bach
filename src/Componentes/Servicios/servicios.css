@@ -4,13 +4,10 @@
 .servicios-contenedor{
   width: 100%;
   height: 100vh;
-  /* background-position: center;
-  background-attachment: fixed; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* background-size: cover; */
 }
 /* .jardineria{
   background-image: url('https://app.pardux.com/render/img-jpeg/13/bos-taurus/Tom-Youngs-6138fef230e9a');
@@ -29,7 +26,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--verde-fondo);
   opacity: 0.15;
@@ -53,6 +50,7 @@
   background-attachment: fixed;
   background-position: center;
   border-bottom: 5px solid var(--verde-oscuro);
+  object-fit: cover;
 }
 @media (min-width: 573px) and (max-width: 1024px){
   .servicios-texto{
@@ -66,10 +64,4 @@
     font-size: 50px;
     line-height: 50px;
   }
-  /* .servicios-contenedor{
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: scroll;
-  } */
 }
