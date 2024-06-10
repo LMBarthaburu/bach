@@ -20,7 +20,7 @@
   background-image: url('https://www.ajardina.es/wp-content/uploads/2024/02/Mantenimiento-de-la-poda-de-altura-consejos-esenciales-para-un-cuidado-eficiente.png');
 }
 .paisajismo{
-  background-image: url('https://planner5d.com/blog/content/images/2022/09/tania-melnyczuk-A1lfZgKxGF4-unsplash.jpg');
+  background-image: url('../../Recursos/Imagenes/WhatsApp\ Image\ 2024-06-10\ at\ 02.29.34.jpeg');
 
 }
 .fumigacion{
@@ -55,7 +55,7 @@
     font-size: 50px;
     line-height: 50px;
   }
-  .servicios-contenedor{
+  /* .servicios-contenedor{
     background-attachment: scroll;
-  }
+  } */
 }
