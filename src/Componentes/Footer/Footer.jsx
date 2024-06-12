@@ -82,7 +82,8 @@ function Footer() {
             <li><a href="#Clientes">Clientes</a></li>
             <li><a href="#Contacto">Contacto</a></li>
           </ul>
-          <p className='legal'>2024 Bach Járdines y Espacios Verdes</p>
+          <p className='legal'>2024 Bach Járdines y Espacios Verdes® </p>
+          <a className='link' href='https://lmb-portfolio.netlify.app/' target='_blanck'>Made by LMBWebDev</a>
         </section>
       </footer>
     </div>
