@@ -3,11 +3,12 @@ import './hero.css'
 import 'animate.css';
 import Logo from '../../Recursos/Imagenes/LogoBach.png'
 import Video from '../../Recursos/Imagenes/HeroVideo2.mp4'
+import Cesped from '../../Recursos/Imagenes/cespedHero.webp'
 
 function Hero() {
   return (
     <div className='hero' id='Inicio'>
-      <video autoPlay loop muted playsInline poster='https://s1.elespanol.com/2019/07/23/como/como_hacer_415969961_130752105_1706x960.jpg' className='hero-video'>
+      <video autoPlay loop muted playsInline poster={Cesped} className='hero-video'>
         <source src={Video} type='video/mp4'/>
       </video>
       <div className='hero-clippath'></div>

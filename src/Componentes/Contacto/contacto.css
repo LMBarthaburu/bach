@@ -8,8 +8,9 @@
 .contacto-img{
   width: 100%;
   height: auto;
-  background-image: url('https://www.cenedi.com/assets/Jardineria-foto.jpg');
+  background-image: url('../../Recursos/Imagenes/jardineria.jpeg');
   background-size: cover;
+  background-position: right;
 }
 .contacto-titulo-cpntenedor{
   position: relative;

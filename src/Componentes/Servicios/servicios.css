@@ -14,17 +14,17 @@
   border-bottom: solid 5px var(--verde-oscuro);
 }
 .jardineria{
-  background-image: url('https://app.pardux.com/render/img-jpeg/13/bos-taurus/Tom-Youngs-6138fef230e9a');
+  background-image: url('../../Recursos/Imagenes/jardineriaServicio.jpeg');
 }
 .poda{
-  background-image: url('https://www.ajardina.es/wp-content/uploads/2024/02/Mantenimiento-de-la-poda-de-altura-consejos-esenciales-para-un-cuidado-eficiente.png');
+  background-image: url('../../Recursos/Imagenes/podaServicio.png');
 }
 .paisajismo{
   background-image: url('../../Recursos/Imagenes/WhatsApp\ Image\ 2024-06-10\ at\ 02.29.34.jpeg');
 
 }
 .fumigacion{
-  background-image: url('https://cdn.shopify.com/s/files/1/2110/9619/collections/Fumigadoras.jpg?v=1587324286');
+  background-image: url('../../Recursos/Imagenes/fumigacionServicio.webp');
 }
 .servicios-clippath{
   position: absolute;
